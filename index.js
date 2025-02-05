@@ -40,6 +40,6 @@ app.listen(PORT,()=>{
 })
 
 //creating a route
-app.use('/home',(req,res)=>[
+app.use('/',(req,res)=>[
     res.send("<h1> Welcome to TastyTrack</h1>")
 ])
